@@ -1,0 +1,13 @@
+<header class="main-header">
+<h1>bienvenidos a juego de carta </h1>
+<label>usted mayor de 18 años:
+  <input type="checkbox" value="yes" ng-click="CtrlHeader.check"
+   ng-model="CtrlHeader.valorcheck"></label><br\>
+
+   <button ng-model="elbotton" ng-disabled="CtrlHeader.marcado"
+   ng-click="CtrlHeader.goToMain()"
+   >{{CtrlHeader.headerText}}</button>
+   
+   <input type="checkbox" value="no">
+
+</header>

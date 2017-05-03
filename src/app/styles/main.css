@@ -1,0 +1,159 @@
+.main-container {
+    max-width: 600px;
+    border: 1px solid green;
+    padding: 1em;
+}
+
+.view-main {
+    border: 1px solid #cc00cc;
+    padding: 1em;
+}
+
+.main-header {
+ header{
+margin:0;
+position:relative;
+}
+
+.overlay{
+position:fixed;
+height:100%;
+width:100%;                                         
+ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGD4D8RwwAgVANEg8B+nAFwLAM9kBgF4b6p1AAAAAElFTkSuQmCC);
+  
+  h1{
+  color:rgba(255,255,255,0.4);
+  font:100px Lato;
+  text-transform:uppercase;
+  letter-spacing:50px;
+  font-weight:700;
+  -webkit-animation:2s glow infinite;
+  -moz-animation:2s glow infinite;
+  -o-animation:2s glow infinite;
+  -ms-animation:2s glow infinite;
+  animation:2s glow infinite;
+  }   
+}
+@-webkit-keyframes glow{
+50%{
+  color:rgba(255,255,255,0.8);
+  text-shadow:rgba(255,200,255,1) 2px 1px 30px;
+}
+  
+100%{
+   color:rgba(255,255,255,0.4); 
+}
+  
+}
+  
+@-moz-keyframes glow{
+50%{
+  color:rgba(255,255,255,0.8);
+  text-shadow:rgba(255,200,255,1) 2px 1px 30px;
+}
+  
+100%{
+   color:rgba(255,255,255,0.4); 
+}
+}
+@-o-keyframes glow{
+50%{
+  color:rgba(255,255,255,0.8);
+  text-shadow:rgba(255,200,255,1) 2px 1px 30px;
+}
+  
+100%{
+   color:rgba(255,255,255,0.4); 
+}
+}
+  
+@-ms-keyframes glow{
+50%{
+  color:rgba(255,255,255,0.8);
+  text-shadow:rgba(255,200,255,1) 2px 1px 30px;
+}
+  
+100%{
+   color:rgba(255,255,255,0.4); 
+}
+}
+  
+@keyframes glow{
+50%{
+  color:rgba(255,255,255,0.8);
+  text-shadow:rgba(255,200,255,1) 2px 1px 30px;
+}
+  
+100%{
+   color:rgba(255,255,255,0.4); 
+}
+}
+
+}
+
+.main-footer {
+    text-align: center;
+    border: 1px solid blue;
+    margin: 0.5em;
+    padding:0.2em;
+}
+
+.list-animals {
+  padding:0.2em;
+  border: 1px solid #ff9933;
+}
+
+.list-animals-card {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 0.5em;
+    padding:0.2em;
+    overflow:hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-animals-card-img {
+    width:100px;
+    height: 100px;
+}
+
+.list-animals-card-title {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.miClaseMaravillosa {
+    color: purple;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.miOtraClaseMaravillosa {
+    background: lime;
+}
+
+.mamiferos {
+    border: 3px solid cadetblue;
+}
+
+.aves {
+    border: 3px solid orangered;
+}
+
+.msg-error {
+    margin: 1em;
+    padding: 1em;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.has-error {
+    border: 1px solid red;
+    color: red;
+}
